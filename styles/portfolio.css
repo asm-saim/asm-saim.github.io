@@ -427,3 +427,43 @@ footer .bttn{
     border-radius: 10px;
 }
 }
+
+/* Footer Part */
+@media screen and (max-width:576px) {
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #181818;
+    color: aliceblue;
+    
+    
+}
+footer h3{
+    font-size:xx-large ;
+    padding-top: 30px;
+}
+footer p{
+    font-size: medium;
+    text-align: center;
+    line-height: 1.8;
+    padding-bottom: 20px;
+}
+
+footer hr{
+    width: 80%;
+    border: none;
+    /*  height: 1px; */
+    background-color: aliceblue;
+    margin: 20px 0;
+}
+
+footer small{
+    padding: 20px 0px;
+    font-size: smaller;
+    padding-bottom: 20px;
+}
+
+
+}
