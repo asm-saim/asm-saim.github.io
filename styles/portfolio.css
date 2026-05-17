@@ -318,7 +318,7 @@ main {
     font-size:x-large;
 }
 
-/* log of project  */
+/* logo of project  */
 
 
 .project-logo {
@@ -373,4 +373,57 @@ footer small{
 footer .bttn{
     background-color: blue;
     border: none;
+}
+
+/* Responsive Part: smaller Device */
+.hide{
+    display: none;
+}
+/* About Part */
+/* About Part */
+@media screen and (max-width:576px) {
+.about {
+    padding: 50px 15px;
+    text-align: left;
+}
+}
+
+
+/* Skills Part */
+/* Skills Part */
+@media screen and (max-width:576px) {
+    .card-section{
+        padding: 30px 15px;           
+    }
+
+    .all-cards{
+        flex-direction:column;
+    }
+
+    .card-section .card {
+    border-radius: 15px;
+    width: calc(90% - 30px);    
+   }
+     
+}
+
+/* Projects Part */
+/* Projects Part */
+
+@media screen and (max-width:576px) {
+.projects-section{
+    padding: 20px 15px;
+   
+    }
+.all-P-cards{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px; 
+}
+.p-card{
+    display: flex;
+    flex-direction: column-reverse;
+    border: 3px solid #004A77;
+    border-radius: 10px;
+}
 }
