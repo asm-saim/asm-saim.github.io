@@ -593,5 +593,20 @@ footer small{
     padding-bottom: 20px;
 }
 
+}
 
+/* Medium Device: Media Query */
+
+@media screen and (min-width:576px) and (max-width:992px) {
+   
+   /* Banner section */
+    .btn-lft {
+    display: flex;
+    flex-direction:column;
+   }
+
+   /* Project Section */
+   .p-card {
+    flex-direction: column-reverse;
+}
 }
